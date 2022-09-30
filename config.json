@@ -18,6 +18,10 @@
       },
       "streamSettings": {
         "network": "ws"
+       "wsSettings": {
+          "path": "/appmve"
+        }
+        
       }
     }
   ],
