@@ -13,6 +13,7 @@ sed -i "s/UUID/$UUID/g" /etc/xray/config.json
 echo starting xray platform
 echo starting with UUID:$UUID
 echo listening at 0.0.0.0:$PORT
+cat /etc/xray/config.json
 
 exec "$@"
 
